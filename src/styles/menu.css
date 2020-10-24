@@ -1,0 +1,91 @@
+#background-menu{
+    display: flex;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/imgs/menu-page-background.png);
+    background-size: cover;
+}
+
+#menu-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#snorlax-food {
+    position: fixed;
+    top: 17vw;
+    left: 5.5vw;
+    width: 30vw;
+    cursor: pointer;
+}
+
+#snorlax-food:hover{
+    animation: tada 1s;
+    /* transform: scale(1.2);
+    transition: all 0.2s ease-out; */
+}
+
+#eevee-food {
+    position: fixed;
+    top: 26vw;
+    left: 29vw;
+    width: 27.8vw;
+    cursor: pointer;
+}
+
+#eevee-food:hover {
+    animation: tada 1s;
+}
+
+#jigglypuff-food {
+    position: fixed;
+    top: 36.45vw;
+    left: 6.65vw;
+    width: 29.9vw;
+    cursor: pointer;
+}
+
+#jigglypuff-food:hover{
+    animation: tada 1s;
+}
+
+#eevee-drink {
+    position: fixed;
+    top: 25.4vw;
+    left: 62vw;
+    width: 26.7vw;
+    cursor: pointer;
+}
+
+#eevee-drink:hover{
+    animation: tada 1s;
+}
+
+#pickachu-drink {
+    position: fixed;
+    left: 65.4vw;
+    top: 15vw;
+    width: 30.8vw;
+    cursor: pointer;
+}
+
+#pickachu-drink:hover{
+    animation: tada 1s;
+}
+
+#gengar-drink {
+    position: fixed;
+    top: 33vw;
+    left: 65vw;
+    width: 27.6vw;
+    cursor: pointer;
+}
+
+#gengar-drink:hover{
+    animation: tada 1s;
+}

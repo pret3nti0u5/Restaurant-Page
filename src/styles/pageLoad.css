@@ -1,0 +1,49 @@
+.pageLoad{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../assets/imgs/smoke01.png), url(../assets/imgs/smoke02.png), url(../assets/imgs/smoke03.png), url(../assets/imgs/smoke04.png), url(../assets/imgs/smoke05.png), url(../assets/imgs/smoke06.png), url(../assets/imgs/smoke07.png), url(../assets/imgs/smoke08.png), url(../assets/imgs/smoke09.png), url(../assets/imgs/smoke10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover, cover, cover, cover, cover, cover, cover, cover, cover, cover;
+    transition: all 0.1s ease-out;
+}
+
+.animated{
+    display: none;
+}
+
+.pageLoad[loadimg="1"]{
+    background-image: url(../assets/imgs/smoke01.png);
+}
+.pageLoad[loadimg="2"]{
+    background-image: url(../assets/imgs/smoke02.png);
+}
+.pageLoad[loadimg="3"]{
+    background-image: url(../assets/imgs/smoke03.png);
+}
+.pageLoad[loadimg="4"]{
+    background-image: url(../assets/imgs/smoke04.png);
+}
+.pageLoad[loadimg="5"]{
+    background-image: url(../assets/imgs/smoke05.png);
+}
+.pageLoad[loadimg="6"]{
+    background-image: url(../assets/imgs/smoke06.png);
+}
+.pageLoad[loadimg="7"]{
+    background-image: url(../assets/imgs/smoke07.png);
+}
+.pageLoad[loadimg="8"]{
+    background-image: url(../assets/imgs/smoke08.png);
+}
+.pageLoad[loadimg="9"]{
+    background-image: url(../assets/imgs/smoke09.png);
+}
+.pageLoad[loadimg="10"]{
+    background-image: url(../assets/imgs/smoke10.png);
+}
