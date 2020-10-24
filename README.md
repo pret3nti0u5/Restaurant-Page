@@ -52,7 +52,7 @@ Deployed on [GitHub Pages](https://pages.github.com/)
 
 Features we are going to add to this app:
 - Approach a Responsive Web Design(RWD)
-- Move from HTML and vanilla CSS to React Js framework
+- Move from HTML and Vanilla CSS to React JS Framework
 
 ## Acknowledgement
 
